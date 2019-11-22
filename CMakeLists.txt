@@ -71,10 +71,10 @@ include_directories(BEFORE src) # This is needed for gtest.
 add_subdirectory(src/gtest)
 add_subdirectory(src/caffe)
 add_subdirectory(tools)
-add_subdirectory(examples)
+#add_subdirectory(examples)
 add_subdirectory(python)
 add_subdirectory(matlab)
-add_subdirectory(docs)
+#add_subdirectory(docs)
 
 # ---[ Linter target
 add_custom_target(lint COMMAND ${CMAKE_COMMAND} -P ${PROJECT_SOURCE_DIR}/cmake/lint.cmake)
